@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AnyConfig</id>
+    <version>0.0.1</version>
+    <authors>Tim Macfarlane</authors>
+    <owners>Tim Macfarlane</owners>
+    <projectUrl>https://github.com/featurist/anyconfig</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>template your web.configs with mustache</description>
+    <tags>build CI deploy configuration</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="5.0.3" />
+      <dependency id="Nustache" version="1.12.4.29" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="AnyConfig\bin\Debug\AnyConfig.dll" target="lib\net40" />
+	<file src="AnyConfig\bin\Debug\AnyConfig.pdb" target="lib\net40" />
+  </files>
+</package>
