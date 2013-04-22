@@ -11,7 +11,7 @@ Put this into a JSON file, anywhere on the internet or filesystem, let's put it 
         "greeting", "cakes are yummy, yeah?"
     }
 
-And put this into `web.template.config` your project directory:
+And put this into `web.template.config` in your project directory:
 
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>
@@ -35,7 +35,7 @@ Then
 
     > bounce configure /env http://internal/myproject/staging.json
 
-And you'll see a `web.config` with all the right things in it.
+And you'll see a `web.config` with all the right things in it. If you're writing an exe, you should see `bin\Debug\myprogram.exe.config` too.
 
 # Api
 
