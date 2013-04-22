@@ -25,6 +25,10 @@ And put this into `web.template.config` in your project directory:
 
 Bounce.Config adds a `Configure` extension method to bounce's `IVisualStudioProject`, so you can generate your `web.config` by running code like this:
 
+    using Bounce.Config;
+
+    ...
+
     [Task]
     public void Configure(string env) {
         var sln = new VisualStudio().Solution("MySolution.sln");
