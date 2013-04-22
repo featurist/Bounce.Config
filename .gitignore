@@ -9,3 +9,4 @@ _ReSharper.*/
 .*.sw[op]
 _.sw[op]
 _TeamCity.*/
+*.nupkg
