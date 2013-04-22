@@ -11,7 +11,7 @@ namespace AnyConfig
 {
     public class TemplateConfigurer
     {
-        public void ConfigureFile(string templateFile, Dictionary<string, string> environment,
+        public void ConfigureFile(string templateFile, Dictionary<string, object> environment,
                                                       string outputFile)
         {
             var config = Render.FileToString(templateFile, environment);
@@ -23,7 +23,7 @@ namespace AnyConfig
             GenerateConfigurationForProject(project, LoadEnvironmentConfiguration(environmentUrl));
         }
 
-        public void GenerateConfigurationForProject(IVisualStudioProject project, Dictionary<string, string> environment)
+        public void GenerateConfigurationForProject(IVisualStudioProject project, Dictionary<string, object> environment)
         {
             var exeConfig = project.OutputFile + ".config";
             var templateFile = ProjectTemplateConfig(project);
@@ -40,12 +40,12 @@ namespace AnyConfig
             }
         }
 
-        public Dictionary<string, string> LoadEnvironmentConfiguration(string environmentUrl)
+        public Dictionary<string, object> LoadEnvironmentConfiguration(string environmentUrl)
         {
-            return JsonConvert.DeserializeObject<Dictionary<string, string>>(new WebClient().DownloadString(environmentUrl));
+            return JsonConvert.DeserializeObject<Dictionary<string, object>>(new WebClient().DownloadString(environmentUrl));
         }
 
-        public void ConfigureFiles(string templateFile, Dictionary<string, string> environment, IEnumerable<string> outputConfigFiles)
+        public void ConfigureFiles(string templateFile, Dictionary<string, object> environment, IEnumerable<string> outputConfigFiles)
         {
             var config = Render.FileToString(templateFile, environment);
             foreach (var configFile in outputConfigFiles)

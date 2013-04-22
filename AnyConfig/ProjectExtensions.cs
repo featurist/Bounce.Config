@@ -10,7 +10,7 @@ namespace AnyConfig
             new TemplateConfigurer().GenerateConfigurationForProject(project, environmentUrl);
         }
 
-        public static void Configure(this IVisualStudioProject project, Dictionary<string, string> environment)
+        public static void Configure(this IVisualStudioProject project, Dictionary<string, object> environment)
         {
             new TemplateConfigurer().GenerateConfigurationForProject(project, environment);            
         }
