@@ -41,7 +41,6 @@ And you'll see a `web.config` with all the right things in it. If you're writing
 
 Configure your project:
 
-    IVisualStudioProject project = ...;
     var sln = new VisualStudio().Solution("MySolution.sln");
     IVisualStudioProject project = sln.Projects["MyProject"];
 
