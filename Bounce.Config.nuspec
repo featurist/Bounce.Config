@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>AnyConfig</id>
-    <version>0.0.2</version>
+    <id>Bounce.Config</id>
+    <version>0.0.3</version>
     <authors>Tim Macfarlane</authors>
     <owners>Tim Macfarlane</owners>
-    <projectUrl>https://github.com/featurist/anyconfig</projectUrl>
+    <projectUrl>https://github.com/featurist/Bounce.Config</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>template your web.configs with mustache</description>
     <tags>build CI deploy configuration</tags>
@@ -15,7 +15,7 @@
     </dependencies>
   </metadata>
   <files>
-	<file src="AnyConfig\bin\Debug\AnyConfig.dll" target="lib\net40" />
-	<file src="AnyConfig\bin\Debug\AnyConfig.pdb" target="lib\net40" />
+	<file src="Bounce.Config\bin\Debug\Bounce.Config.dll" target="lib\net40" />
+	<file src="Bounce.Config\bin\Debug\Bounce.Config.pdb" target="lib\net40" />
   </files>
 </package>

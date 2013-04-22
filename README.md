@@ -1,8 +1,8 @@
 # Web.config Templates
 
-Use AnyConfig to template your web.configs with [bounce](https://github.com/refractalize/bounce).
+Use Bounce.Config to template your web.configs with [bounce](https://github.com/refractalize/bounce).
 
-AnyConfig uses mustache to generate your web.configs from a JSON file and a web.template.config file.
+Bounce.Config uses mustache to generate your web.configs from a JSON file and a web.template.config file.
 
 Put this into a JSON file, anywhere on the internet or filesystem, let's put it into `http://internal/myproject/staging.json`:
 
@@ -23,7 +23,7 @@ And put this into `web.template.config` in your project directory:
       </appSettings>
     </configuration>
 
-AnyConfig adds a `Configure` extension method to bounce's `IVisualStudioProject`, so you can generate your `web.config` by running code like this:
+Bounce.Config adds a `Configure` extension method to bounce's `IVisualStudioProject`, so you can generate your `web.config` by running code like this:
 
     [Task]
     public void Configure(string env) {
@@ -48,6 +48,6 @@ Configure your project:
 
 Where `env` is either a URL or a filename of a JSON file.
 
-You can also pass a `Dictionary<string, object>` of settings to replace, all objects are converted with `.ToString()`. AnyConfig uses [Nustache](https://github.com/jdiamond/Nustache) for templating, check it out for the lovely details.
+You can also pass a `Dictionary<string, object>` of settings to replace, all objects are converted with `.ToString()`. Bounce.Config uses [Nustache](https://github.com/jdiamond/Nustache) for templating, check it out for the lovely details.
 
 Access to lower level functions are on the `TemplateConfigurer` object.

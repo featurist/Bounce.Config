@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using NUnit.Framework;
 
-namespace AnyConfig.Tests
+namespace Bounce.Config.Tests
 {
     [TestFixture]
     public class ConfigureTests

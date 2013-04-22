@@ -7,7 +7,7 @@ using Bounce.Framework.VisualStudio;
 using Newtonsoft.Json;
 using Nustache.Core;
 
-namespace AnyConfig
+namespace Bounce.Config
 {
     public class TemplateConfigurer
     {

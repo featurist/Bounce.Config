@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Bounce.Framework.VisualStudio;
 
-namespace AnyConfig
+namespace Bounce.Config
 {
     public static class ProjectExtensions
     {

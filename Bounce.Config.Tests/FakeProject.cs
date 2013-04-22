@@ -1,7 +1,7 @@
 ﻿using System;
 using Bounce.Framework.VisualStudio;
 
-namespace AnyConfig.Tests
+namespace Bounce.Config.Tests
 {
     class FakeProject : IVisualStudioProject
     {

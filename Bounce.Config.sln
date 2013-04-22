@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyConfig", "AnyConfig\AnyConfig.csproj", "{DE9B84CC-E579-42DE-8737-F929DB7B4952}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bounce.Config", "Bounce.Config\Bounce.Config.csproj", "{DE9B84CC-E579-42DE-8737-F929DB7B4952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyConfig.Tests", "AnyConfig.Tests\AnyConfig.Tests.csproj", "{E0EAAA9D-3BE8-4FE9-8A00-223BEB0DCB83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bounce.Config.Tests", "Bounce.Config.Tests\Bounce.Config.Tests.csproj", "{E0EAAA9D-3BE8-4FE9-8A00-223BEB0DCB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

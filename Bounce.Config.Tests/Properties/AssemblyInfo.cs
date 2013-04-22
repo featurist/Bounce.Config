@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AnyConfig")]
+[assembly: AssemblyTitle("Bounce.Config.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AnyConfig")]
+[assembly: AssemblyProduct("Bounce.Config.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2a874a9f-c65d-4a2c-afa3-8ec3ef3fff16")]
+[assembly: Guid("870f4db8-1abb-499c-8c26-4fe81772f17d")]
 
 // Version information for an assembly consists of the following four values:
 //
