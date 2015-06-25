@@ -31,9 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bounce.Framework, Version=0.7.4832.18981, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Bounce.0.9.0\lib\net40\Bounce.Framework.dll</HintPath>
+    <Reference Include="Bounce.Framework, Version=0.7.5308.27601, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bounce.0.9.3\lib\net40\Bounce.Framework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="FS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
